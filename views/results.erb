@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+		<h1>These are the results</h1>
+		<img src=<%= @giphy_link %>>
+		<ul>
+			<% @results.each do |department_string| %>
+				<li><h2><%= department_string %></h2></li>
+			<% end %>
+		</ul>
+  </body>
+</html>
